@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container {
+  background: -webkit-gradient(linear, left top, right top, from(#3f81ad), to(#018dff));
+  background: linear-gradient(to right, #3f81ad, #018dff);
+  height: 100vh;
+  color: white;
+}
+
+.Container h1 {
+  padding: 20px;
+}
+
+.Container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Container .header li {
+  margin: 0;
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.contact {
+  padding: 5px;
+  font-size: 15px;
+  padding-left: 50px;
+}
+
+.projects {
+  padding: 5px;
+  font-size: 15px;
+  line-height: 40px;
+  padding-left: 50px;
+}
+
+.home {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.learn {
+  padding: 5px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=Style.css.map */

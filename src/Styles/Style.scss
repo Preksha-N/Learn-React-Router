@@ -1,0 +1,45 @@
+@import "variable";
+@import "reset";
+@mixin  navbar {
+    padding: 5px;
+    font-size: 15px;
+    
+}
+.Container{
+    background:linear-gradient( to right,rgb(63, 129, 173),rgb(1, 141, 255));
+    height: 100vh;
+    color: white;
+    h1{
+        padding: 20px;
+    }
+
+   .header{
+       
+       display: flex;
+       justify-content: center;
+       
+       li{
+        
+        margin: 0;
+        padding: 0 20px;
+        list-style-type: none;
+       }
+   }
+
+}
+.contact{
+    @include navbar;
+    padding-left: 50px;
+    
+}
+.projects{
+    @include navbar;
+    line-height: 40px;
+    padding-left: 50px;
+}
+.home{
+    @include navbar;
+}
+.learn{
+    @include navbar;
+}
